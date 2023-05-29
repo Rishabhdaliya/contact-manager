@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Contact Management App with Charts and Maps
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a contact management application built with ReactJS, TypeScript, TailwindCSS, React Router v6, and React Query. The app allows you to manage contacts, view contact details, edit and delete contacts. Additionally, it features charts and maps to visualize COVID-19 data.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Objective](#objective)
+- [Features](#features)
+- [APIs Used](#apis-used)
+- [Instructions](#instructions)
+- [Deliverable](#deliverable)
 
-### `npm start`
+## Objective
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The objective of this project is to create a contact management app with charts and maps. The app should have the following functionality:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A form to add new contacts
+- Display a list of all added contacts
+- View contact details for each contact
+- Edit and delete contacts
+- Use Redux to store contact data
+- Build a simple dashboard with a line graph and a map showing COVID-19 data
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add new contacts using a form
+- List all added contacts
+- View contact details
+- Edit and delete contacts
+- Store contact data using Redux
+- Dashboard with charts and maps to visualize COVID-19 data
 
-### `npm run build`
+## Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow the instructions below to set up and run the contact management app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the GitHub/GitLab repository to your local machine.
+2. Navigate to the project directory.
+3. Install the required dependencies using the package manager of your choice (e.g., npm or yarn).
+   ```shell
+   npm install
+   ```
+4. Start the development server.
+   ```shell
+   npm start
+   ```
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deliverable
 
-### `npm run eject`
+Upon completion, the project should include the following:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A working contact management app with charts and maps.
+- Properly commented code for better understanding.
+- A brief documentation explaining how to run the app, including information on the API endpoints used.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or need further assistance.
+Email: 14rishabhdaliya@gmail.com

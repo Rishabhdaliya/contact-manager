@@ -1,0 +1,41 @@
+.contactcard {
+  width: 250px;
+  height: 130px;
+  background-color: #f9eded;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.contactcardActive {
+  width: 250px;
+  height: 130px;
+  background-color: rgb(244, 253, 244);
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.contactcard__icons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: green;
+}
+
+.contactcard__iconsError {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+}
+.contactcard p,
+.contactcardActive p {
+  font-size: 17px;
+}
+.contactcard__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
